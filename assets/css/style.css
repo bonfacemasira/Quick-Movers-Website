@@ -1,0 +1,13 @@
+body{
+    font-family: 'Poppins',  Actor, Adamina;
+}
+
+.introduction{
+    background-image: url(../images/moving\ 1.png);
+}
+
+div.introduction > nav > ul > li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 1px;
+}
