@@ -115,11 +115,13 @@ div.top_movers > div.topMovers_profiles{
     padding-bottom: 100px;
 }
 
-div.top_movers > div.topMovers_profiles > div.profile{}
-
-div.top_movers > div.topMovers_profiles > div.profile > div.profile_image {
-    width: 20%;
+div.top_movers > div.topMovers_profiles > div.profile{
+    width: 25%;
+    display: inline-block;
+    padding-right: 40px;
 }
+
+div.top_movers > div.topMovers_profiles > div.profile > div.profile_image {}
 
 div.top_movers > div.topMovers_profiles > div.profile > div.profile_image img {
     max-width: 100%;
