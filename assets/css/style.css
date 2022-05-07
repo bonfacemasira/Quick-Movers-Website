@@ -13,13 +13,14 @@ div.introduction{
 
 div.introduction > nav > ul {
     padding-top: 70px;
-    position: relative;
+    margin-right: 10%;
+    text-align: right;
 }
 
 div.introduction > nav > ul > li {
     display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 50px;
     color: white;
 }
 
@@ -51,4 +52,21 @@ div.introduction > div.introduction_text > p {
     color: whitesmoke;
     font-size: 30px;
     padding-top: 50px;
+}
+
+div.cut_hustle{
+    display: flex;
+    margin-top: 70px;
+}
+
+div.cutHustle_image {
+    width: 50%;
+}
+
+div.cutHustle_image > img {
+    background-size: cover;
+}
+
+div.cutHustle_text {
+    width: 50%;
 }
