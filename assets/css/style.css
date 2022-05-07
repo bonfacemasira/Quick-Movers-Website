@@ -53,6 +53,8 @@ div.introduction > div.introduction_text > p {
     padding-top: 50px;
 }
 
+/* Cut the Hustle Styling Section */
+
 div.cut_hustle{
     display: flex;
     margin-top: 70px;
@@ -85,7 +87,7 @@ div.cutHustle_text > div.content > p {
 }
 
 hr.thick_line{
-    width: 40%;
+    width: 100px;
     margin: 0;
     border-top: 5px solid green;
 }
@@ -99,9 +101,22 @@ button.learn_more{
     margin-top: 30px;
 }
 
+/* Top Movers Styling */
+
 div.top_movers{
     margin-top: 30px;
     background-color: rgb(245, 234, 234);
     padding-top: 100px;
+    padding-left: 100px;
 }
 
+div.top_movers > div.topMovers_profiles > div.profile{}
+
+div.top_movers > div.topMovers_profiles > div.profile > div.profile_image {
+    width: 30%;
+}
+
+div.top_movers > div.topMovers_profiles > div.profile > div.profile_image img {
+    max-width: 100%;
+    max-height: 100%;
+}
