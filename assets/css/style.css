@@ -252,6 +252,33 @@ div.details > div.main > div.images > div.more_images > img {
     width: 10%;
 }
 
+/* Details Section */
+body.page2{
+    background-color: rgba(221, 202, 202, 0.774);
+}
+
+div.details > div.main > div.details_section, div.description_section{
+    background-color: white;
+    width: 100%;
+    border-radius: 15px;
+}
+
+div.details > div.main > div.details_section > div.title > h4 , div.description_section > div.title > h4 {
+    padding: 20px;
+}
+
+div.details > div.main > div.details_section > div.title > h4 , div.description_section > div.content > p.top {
+    padding: 20px 20px 0 20px;
+}
+
+div.details > div.main > div.details_section > div.title > h4 , div.description_section > div.content > p.middle {
+    padding: 0 20px 0 20px;
+}
+
+div.details > div.main > div.details_section > div.title > h4 , div.description_section > div.content > p.bottom {
+    padding: 0 20px 20px 20px;
+}
+
 
 
 
