@@ -231,14 +231,14 @@ div.similar_listings {
 
 div.similar_listings > div.profiles_list{
     display: flex;
-    width: 100%;
+    width: 120%;
     margin-top: 100px;
     margin-right: 0;
 }
 
 div.similar_listings > div.profiles_list > div.profile {
     height: 400px;
-    width: 100%;
+    width: 150%;
     flex-direction: row;
 }
 
@@ -258,15 +258,15 @@ div.similar_listings > div.profiles_list > div.profile > div.listings_statistics
 }
 
 div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > .car{
-    width: 20%;
+    width: 10%;
 }
 
 div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > .bath{
-    width: 20%;
+    width: 10%;
 }
 
 div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > .hashtag{
-    width: 20%
+    width: 10%
 }
 
 div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > div {
