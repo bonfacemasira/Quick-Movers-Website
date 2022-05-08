@@ -119,12 +119,44 @@ div.top_movers > div.topMovers_profiles{
 div.top_movers > div.topMovers_profiles > div.profile{
     width: 25%;
     display: inline-block;
-    padding-right: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
 }
+
 div.top_movers > div.topMovers_profiles > div.profile > div.profile_image img {
     max-width: 100%;
     max-height: 100%;
 }
+
+
+div.top_movers > div.topMovers_profiles > div.profile > .statistics, .name {
+    display: flex;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+}
+
+div.top_movers > div.topMovers_profiles > div.profile > .name  {
+    border-radius: 0;
+    margin-bottom: 2px;
+    padding-left: 20px;
+}
+
+div.top_movers > div.topMovers_profiles > div.profile > .statistics > div {
+    align-items: center;
+    display: flex;
+    margin-right: px;
+}
+
+div.top_movers > div.topMovers_profiles > div.profile >.statistics > div > i.fa {
+    color: black;
+}
+
+.car, .bath , .hashtag{
+    margin: 0 20px 0 20px;
+}
+
+
+
 
 /* Styling the footer section */
 
