@@ -220,6 +220,39 @@ div.footer > div.footer_bottom > .column_headings > .ch_list > ul {
 
 /* Page 2 Styling */
 
+/* Details section */
+div.details{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    margin-left: 150px;
+}
+
+div.details > div.main{
+    width: 40%;
+}
+
+div.details > div.main > div.images > div.main_image {
+    width: 100%;
+}
+
+div.details > div.main > div.images > div.main_image > img{
+    width: 100%;
+    height: 100%;
+}
+
+div.details > div.main > div.images > div.more_images {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+div.details > div.main > div.images > div.more_images > img {
+    width: 10%;
+}
+
+
 
 
 
@@ -234,12 +267,14 @@ div.similar_listings > div.profiles_list{
     width: 120%;
     margin-top: 100px;
     margin-right: 0;
+    padding-bottom: 100px;
 }
 
 div.similar_listings > div.profiles_list > div.profile {
     height: 400px;
     width: 150%;
     flex-direction: row;
+    border-radius: 0 0 20px 20px;
 }
 
 div.similar_listings > div.profiles_list > div.profile > div.listing_image {
