@@ -225,9 +225,31 @@ div.footer > div.footer_bottom > .column_headings > .ch_list > ul {
 
 
 /* Similar Listings Styling */
+div.similar_listings {
+    margin-left: 150px;
+}
 
+div.similar_listings > div.profiles_list{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 0;
+}
 
+div.similar_listings > div.profiles_list > div.profile {
+    height: 400px;
+    width: 100%;
+    flex-direction: row;
+}
 
+div.similar_listings > div.profiles_list > div.profile > div.listing_image {
+    height: 70%;
+}
+
+div.similar_listings > div.profiles_list > div.profile > div.listing_image > img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 
 /* Page 2 Footer */
