@@ -159,3 +159,17 @@ div.footer > div.footer_bottom {
     display: flex;
 }
 
+div.footer > div.footer_bottom > div.icons {
+    width: 30%;
+}
+
+div.footer > div.footer_bottom > .column_headings > .ch_list {
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.footer > div.footer_bottom > .column_headings > .ch_list > ul {
+    list-style: none;
+}
+
