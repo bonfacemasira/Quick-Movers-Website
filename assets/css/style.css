@@ -346,8 +346,19 @@ div.header > div.header_top > nav > ul > li > button.workWithUs_btn{
     padding: 15px;
 }
 
+div.header > div.header_bottom {
+    display: flex;
+}
 
+div.header > div.header_bottom > div.house_name {
+    width: 50%;
+    padding-left: 10%;
+}
 
+div.header > div.header_bottom > div.house_price {
+    width: 50%;
+    text-align: center;
+}
 
 
 
