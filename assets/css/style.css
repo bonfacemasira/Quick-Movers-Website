@@ -271,7 +271,7 @@ div.details > div.main > div.details_section > div.title > h4 , div.description_
     padding: 20px 20px 0 20px;
 }
 
-div.details > div.main > div.details_section > div.title > h4 , div.description_section > div.content > p.middle {
+div.details > div.main > div.details_section > div.title > h4, div.description_section > div.content > p.middle {
     padding: 0 20px 0 20px;
 }
 
@@ -292,6 +292,62 @@ div.features_section > div.lists > div > ul > li{
 div.features_section > div.lists > div > ul > li > img{
     height: 15px;
 }
+
+div.details_section > div.statistics {
+    display: flex;
+}
+
+div.details_section > div.statistics > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.details_section > div.statistics > div > i.fa{
+    color: black;
+}
+
+div.details_section > div.statistics > div > i.fa > p {
+    display: inline;
+}
+
+/* kayley hall */
+div.kayley_hall{
+    width: 35%;
+    margin-left: 50px;
+}
+
+/* page 2 header */
+    /* Page 2 navigation bar */
+div.header{
+    color: white;
+    background-color: black;
+}
+
+div.header > div.header_top > nav > ul {
+    padding-top: 50px;
+    margin-right: 10%;
+    text-align: right;
+    padding-bottom: 50px;
+}
+
+div.header > div.header_top > nav > ul > li{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 50px;
+    color: white;
+}
+
+div.header > div.header_top > nav > ul > li > button.workWithUs_btn{
+    color: black;
+    background-color: yellow;
+    border-radius: 0 5px 0 0;
+    border: none;
+    padding: 15px;
+}
+
+
+
 
 
 
