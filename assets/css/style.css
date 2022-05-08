@@ -149,7 +149,7 @@ div.top_movers > div.topMovers_profiles > div.profile > .name  {
     padding-left: 20px;
 }
 
-div.top_movers > div.topMovers_profiles > div.profile > .statistics > div {
+div.top_movers > div.topMovers_profiles > div.profile > div.statistics > div {
     align-items: center;
     display: flex;
     margin-right: px;
@@ -249,6 +249,40 @@ div.similar_listings > div.profiles_list > div.profile > div.listing_image {
 div.similar_listings > div.profiles_list > div.profile > div.listing_image > img {
     max-width: 100%;
     max-height: 100%;
+}
+
+div.similar_listings > div.profiles_list > div.profile > div.listings_statistics {
+    display: flex;
+    width: auto;
+    max-width: 100%;
+}
+
+div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > .car{
+    width: 20%;
+}
+
+div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > .bath{
+    width: 20%;
+}
+
+div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > .hashtag{
+    width: 20%
+}
+
+div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin: 1px 0 0 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > div > i.fa {
+    color: black;
 }
 
 
