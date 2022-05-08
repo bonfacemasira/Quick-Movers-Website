@@ -23,6 +23,14 @@ div.introduction > nav > ul > li {
     color: white;
 }
 
+div.introduction > nav > ul > li > a {
+    color: white;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
 div.introduction > nav > ul > li > .login_btn1 {
     color: black;
     background-color: yellow;
